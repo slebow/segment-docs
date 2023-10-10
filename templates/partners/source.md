@@ -45,10 +45,7 @@ This source is maintained by <integration_name>. For any issues with the source,
 
 1. From your workspace's [Sources catalog page](https://app.segment.com/goto-my-workspace/sources/catalog){:target="_blank”} click **Add Source**.
 2. Search for "<integration_name>" in the Sources Catalog, select <integration_name>, and click **Add Source**.
-3. On the next screen, give the Source a nickname configure any other settings.
-
-   - The nickname is used as a label in the Segment app, and Segment creates a related schema name in your warehouse. The nickname can be anything, but we recommend using something that reflects the source itself and distinguishes amongst your environments (eg. SourceName_Prod, SourceName_Staging, SourceName_Dev).
-
+3. Give the source a name, for example <integration_name>_Prod. The name is used in the Segment interface.
 4. Click **Add Source** to save your settings.
 5. Copy the Write key from the Segment UI.
 6. Log in to your <integration_name> account - navigate to Settings > Integrations > Segment Integration and paste the key to connect.
